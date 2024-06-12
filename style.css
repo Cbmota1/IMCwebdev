@@ -1,0 +1,91 @@
+
+body {
+    font-family: Arial, Helvetica;
+    background-color: #0b2b10;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+fieldset {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    background-color: #222121;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+fieldset label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+fieldset input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e4618;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0f220c;
+}
+
+.result {
+    display: none;
+    margin-top: 20px;
+    width: 500px;
+}
+
+.result table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #4b4a4a;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: white;
+}
+
+.result table, 
+.result table th, 
+.result table td {
+    border: 1px solid #6b6b6b;
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+.titulo {
+    font-family: 'Arial', sans-serif; 
+    font-size: 36px; 
+    color: #ffffff; 
+    text-align: center;  
+    letter-spacing: 2px; 
+    background-color: #313131; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 20px; 
+}

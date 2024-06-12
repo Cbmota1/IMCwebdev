@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora IMC</title>
+   
+</head>
+<body>
+    <h1 class="titulo">Calculo de planos de saúde</h1>
+    <fieldset>
+        <label for="peso">Peso(KG)</label>
+        <input type="number" id="peso">
+
+        <label for="altura">Altura</label>
+        <input type="number" id="altura">
+        
+        <label for="idade">Idade</label>
+        <input type="number" id="idade">
+        
+        <button class="btn" id="calculo" onclick="imc()">Calcular</button>
+    </fieldset>
+    <div class= result id="resultados">
+        <table>
+            <tr>
+                <td>Plano</td>
+                <td>Preço</td>
+            </tr>
+            <tr>
+                <td>Plano Básico A</td>
+                <td id="basicoA"></td>
+            </tr>
+            <tr>
+                <td>Plano Standard A</td>
+                <td id="standardA"></td>
+            </tr>
+            <tr>
+                <td>Plano Premium A</td>
+                <td id="premiumA"></td>
+            </tr>
+            <tr>
+                <td>Plano Básico B</td>
+                <td id="basicoB"></td>
+            </tr>
+            <tr>
+                <td>Plano Standard B</td>
+                <td id="standardB"></td>
+            </tr>
+            <tr>
+                <td>Plano Premium B</td>
+                <td id="premiumB"></td>
+            </tr>
+        </table>
+        <h1 class="titulo" id="melhorPreço"></h1>
+    </div>
+</body>
+</html>
+
